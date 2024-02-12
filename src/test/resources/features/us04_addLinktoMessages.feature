@@ -27,7 +27,7 @@ Feature: User should be able to add link in message
     Then user navigate to the correct URL
 
 
-#need to figure out verification
+
   Scenario: Verify link is opening in a new tab
     Given the user logged in as "marketing"
     When user opens a new message

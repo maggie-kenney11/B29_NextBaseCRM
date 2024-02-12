@@ -5,7 +5,7 @@ Feature: NextBase CRM Employees module functionality
   Background: User is already on the log in page
     Given the user is on the login page
 
-#Bug found, depending on screen size this case will pass
+
   Scenario: Users should be able to see 8 modules on the Employee page
     Given the user logged in as "hr"
     When user clicks on Employee module

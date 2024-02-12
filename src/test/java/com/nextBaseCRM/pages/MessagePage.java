@@ -23,17 +23,12 @@ public class MessagePage extends  BasePage{
         @FindBy(xpath = "//span[@class='insert-btn']")
         public WebElement insertInTextBtn;
 
-        @FindBy(xpath = "//img[@class='files-preview']")
-        public WebElement uploadedFilesConfMessage;
-
         @FindBy(xpath = "//td[@class='files-info']")
         public WebElement inTextMessage;
 
         @FindBy(xpath = "//span[@class='del-but']")
         public WebElement deleteUploadBtn;
 
-        @FindBy(xpath = "//td[@class='files-name']")
-        public WebElement uploadedFile;
 
         @FindBy(xpath = "//span[@title='Link']")
         public WebElement linkBtn;

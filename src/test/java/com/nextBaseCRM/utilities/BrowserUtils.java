@@ -153,7 +153,7 @@ public class BrowserUtils {
         return actualSelect_as_String;
 
     }
-    //accepts dropdown element and returns list of values of the drop down
+    //accepts dropdown element and returns list of values of the dropdown
 
     public static void clickRadioButton(List<WebElement> radioButtons, String attributeValue){
 
